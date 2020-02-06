@@ -1,5 +1,4 @@
 #!/bin/sh
 
 docker-compose down
-docker-compose up -d nginx mysql workspace
-
+docker-compose up -d nginx mysql adminer workspace
